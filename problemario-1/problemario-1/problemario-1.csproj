@@ -54,6 +54,11 @@
       <DependentUpon>Form1.cs</DependentUpon>
       <Link>Form1.Designer.cs</Link>
     </Compile>
+    <Compile Include="Clase\ClsDivicion.cs" />
+    <Compile Include="Clase\ClsMultiplicacion.cs" />
+    <Compile Include="Clase\ClsPorcentaje.cs" />
+    <Compile Include="Clase\ClsResta.cs" />
+    <Compile Include="Clase\ClsSuma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="..\..\..\..\..\..\Desktop\Form1.resx">
@@ -82,5 +87,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

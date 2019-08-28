@@ -8,10 +8,11 @@ namespace problemario_1.Clase
 {
     class ClsPorcentaje
     {
-        public double Porcentaje(double N1, double N2)
+        
+        public double Porcentaje(double N1,Double N2)
         {
             double P;
-            P = N1 / 100 ;
+            P = ((N1 / 100)*N2) ;
             return P;
         }
     }
